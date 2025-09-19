@@ -5,6 +5,8 @@ int main(){
 
     obj row;
     row.show("row");
+    row.buler(51);
+    row.show("bluer");
 
     obj ir;
     ir.hsv();
