@@ -48,4 +48,6 @@ __day2__
 - hw2 (X)
 
 ## Open CV
-not ready
+__day1__
+- hw1 (보고서X)
+- hw2 (X)
