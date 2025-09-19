@@ -49,5 +49,5 @@ __day2__
 
 ## Open CV
 __day1__
-- hw1 (보고서X)
-- hw2 (X)
+- hw1 (O)
+- hw2 (미완성)
