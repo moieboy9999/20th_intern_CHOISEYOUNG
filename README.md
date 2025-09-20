@@ -3,7 +3,7 @@
 ## linux
 __day1__
 - hw1 (O)
-- hw2 (X)
+- hw2 (O)
 - hw3 (O)
 ## C++ & Qt
 __day1__
