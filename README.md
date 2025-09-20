@@ -7,22 +7,22 @@ __day1__
 - hw3 (O)
 ## C++ & Qt
 __day1__
-- hw1 (X)
+- hw1 (O)
 - hw2 (X)
 - hw3 (X)
 
 __day2__
 - hw1 (X)
-- hw2 (X)
+- hw2 (O)
 
 __day3__
-- hw1 (X)
-- hw2 (X)
+- hw1 (O)
+- hw2 (O)
 - hw3 (X)
 
 __day4__
-- hw1 (X)
-- hw2 (X)
+- hw1 (O)
+- hw2 (O)
 
 __C++&Qt 프로젝트__
 - project (X)
@@ -51,3 +51,4 @@ __day2__
 __day1__
 - hw1 (O)
 - hw2 (미완성)
+- 최종 (X)
