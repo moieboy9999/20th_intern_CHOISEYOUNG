@@ -42,30 +42,12 @@ int main(){
     pross point;
     int i,mi,ma,sh,sh1,lo,lo1;
     float p=0.1,min=0.1,max=0.1;
-    while(p<1||(p-int(p)!=0)){
-        cout<<"Please define the number of points(natural number): ";
-        p=point.input();
-    }
-    i=p;
-    while(min-(int)min!=0){
-        cout<<"Please define minimum of coor. value(int): ";
-        min=point.input();
-    }   
-    mi=min;
-    while(max<min||(max-(int)max!=0)){
-        cout<<"Please define maximum of coor. value(bigger int than min): ";
-        max=point.input();
-    }
-    ma=max;
-
-    cout<<endl<<endl<<"Generate Random point"<<endl;
-
-    float mid,mad,len;
-    cold *list=new cold[i];
+    while(p<1||(p-int(p)!=0)){//입력들(개수, 최대, 최소) 
+        cout<<"Please define the number of points(natural number): ";로
 
     for(int k=0;i>k;k++){
         int d=0;
-        while(d==0){
+        while(d==0){//겹치면 다시 돌리고 더 이상 새로운 좌표 없으면 겹치기
             list[k].X=(rand()%(ma-mi+1))+mi;
             list[k].Y=(rand()%(ma-mi+1))+mi;
             if(k<(ma-mi+1)*(ma-mi+1)){
@@ -85,13 +67,13 @@ int main(){
     for(int k=0;i>k;k++){
         for(int j=1+k; i>j;j++){
             len=point.sqrt(((list[k].X-list[j].X)*(list[k].X-list[j].X))+((list[k].Y-list[j].Y)*(list[k].Y-list[j].Y)));
-            if(j==1){mid=210000000;mad=0;}
+            if(j==1){mid=210000000;mad=0;}//최소에 매우 큰수, 최대에 작은 수
             if (len<0){len=0;}
             if(mad<len){mad=len;lo=k;lo1=j;}
             if(mid>len){mid=len;sh=k;sh1=j;}
         }
     }
-
+//과제 나온대로 출력
     cout<<endl<<"--------Result--------"<<endl;
     cout<<"MinDist="<<mid<<endl;
     cout<<"Pair of Min Coor.<x,y>: P1<"<<list[sh].X<<","<<list[sh].Y<<"> & P2<"<<list[sh1].X<<","<<list[sh1].Y<<">"<<endl<<endl;
