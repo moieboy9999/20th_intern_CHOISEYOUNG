@@ -29,22 +29,22 @@ __C++&Qt 프로젝트__
 
 ## ROS
 __day1__
-- hw1 (X)
-- hw2 (X)
+- hw1 (O)
+- hw2 (형식 변환 )
 - hw3 (X)
 
 __day2__
-- hw1 (X)
+- hw1 (형식 변환 )
 - hw2 (X)
 - hw3 (X)
 - hw4 (X)
 
 __day3__
-- hw1 (X)
+- hw1 (형식 변환 )
 - hw2 (X)
 
-__day2__
-- hw1 (X)
+__day4__
+- hw1 (형식 변환 중)
 - hw2 (X)
 
 ## Open CV
