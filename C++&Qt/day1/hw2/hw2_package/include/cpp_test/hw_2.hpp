@@ -3,7 +3,7 @@
 
 using namespace std;
 
-struct cold
+struct cold//구조체(구조체는 신이다)
 {
     int X;
     int Y;
