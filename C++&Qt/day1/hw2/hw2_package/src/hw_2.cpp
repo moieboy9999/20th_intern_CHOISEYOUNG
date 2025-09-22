@@ -42,8 +42,27 @@ int main(){
     pross point;
     int i,mi,ma,sh,sh1,lo,lo1;
     float p=0.1,min=0.1,max=0.1;
+
     while(p<1||(p-int(p)!=0)){//입력들(개수, 최대, 최소) 
-        cout<<"Please define the number of points(natural number): ";로
+        cout<<"Please define the number of points(natural number): ";
+        p=point.input();
+    }
+    i=p;
+    while(min-(int)min!=0){
+        cout<<"Please define minimum of coor. value(int): ";
+        min=point.input();
+    }   
+    mi=min;
+    while(max<min||(max-(int)max!=0)){
+        cout<<"Please define maximum of coor. value(bigger int than min): ";
+        max=point.input();
+    }
+    ma=max;
+
+    cout<<endl<<endl<<"Generate Random point"<<endl;
+
+    float mid,mad,len;
+    cold *list=new cold[i];
 
     for(int k=0;i>k;k++){
         int d=0;
