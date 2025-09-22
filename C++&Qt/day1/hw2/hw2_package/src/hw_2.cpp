@@ -89,7 +89,6 @@ int main(){
             if (len<0){len=0;}
             if(mad<len){mad=len;lo=k;lo1=j;}
             if(mid>len){mid=len;sh=k;sh1=j;}
-            cout<<k<<" "<<j<<endl;
         }
     }
 
