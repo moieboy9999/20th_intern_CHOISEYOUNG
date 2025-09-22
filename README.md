@@ -8,7 +8,7 @@ __day1__
 ## C++ & Qt
 __day1__
 - hw1 (O)
-- hw2 (보고서 X)
+- hw2 (O)
 - hw3 (X)
 
 __day2__
